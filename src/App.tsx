@@ -501,7 +501,7 @@ const ProductsSection: React.FC = () => {
         { icon: Activity, name: 'Veterinary Management System', description: 'Streamlined practice management tools' },
         { icon: Smartphone, name: 'Smart Pet Monitoring', description: 'IoT-enabled pet health tracking' },
       ],
-      color: 'from-pink-500 to-rose-600',
+      color: 'bg-sky-500',
       bg: 'from-pink-50 to-rose-50',
     },
   ];
@@ -1074,7 +1074,7 @@ const Footer: React.FC = () => {
               <a href="https://www.linkedin.com/company/sliva" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-all">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com/slivatech" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-all">
+              <a href="https://www.instagram.com/slivatech.id/" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-all">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="https://wa.me/6281977388341" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-all">
