@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { services } from '../data/services';
 import { industries } from '../data/industries';
 import { articles } from '../data/articles';
-import { solutions } from '../data/solutions';
 import { Icon } from '../components/Icons';
-import { ArticleArt, ProductPreview, RibbonArt } from '../components/Visuals';
+import { ArticleArt, RibbonArt } from '../components/Visuals';
+import { FounderMessage } from '../components/FounderMessage';
 import {
   Button,
   Eyebrow,
@@ -157,50 +157,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="section solutions-section">
-        <div className="container">
-          <SectionHeading
-            eyebrow="POSSIBILITIES IN ACTION"
-            title={
-              <>
-                Bukan sekadar digital.
-                <br />
-                Ada dampak di baliknya.
-              </>
-            }
-            href="/solusi"
-            linkText="Eksplorasi solusi"
-            text="Bayangkan apa yang bisa kita bangun. Berikut gambaran solusi untuk tantangan yang berbeda."
-          />
-          <div className="solutions-grid">
-            {solutions.map((x, i) => (
-              <a
-                href={`/solusi/${x.slug}`}
-                className={`solution-card solution-card-${i}`}
-                key={x.slug}
-              >
-                <ProductPreview theme={x.theme} compact />
-                <div className="solution-info">
-                  <span className="tiny-label">
-                    {x.category}
-                    <span>CONCEPT</span>
-                  </span>
-                  <div>
-                    <h3>{x.name}</h3>
-                    <span className="circle-arrow">
-                      <Icon name="diagonal" size={19} />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            ))}
-          </div>
-          <p className="concept-note">
-            Visual di atas adalah ilustrasi konsep solusi, dengan data contoh untuk eksplorasi
-            kebutuhan.
-          </p>
-        </div>
-      </section>
+      <FounderMessage />
       <section className="section industry-section">
         <div className="container">
           <SectionHeading

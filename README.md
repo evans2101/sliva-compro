@@ -35,6 +35,7 @@ Buka `http://127.0.0.1:4173`. Server preview menyajikan HTML per URL dan mengomp
 | Kebutuhan                        | Sumber                                         |
 | -------------------------------- | ---------------------------------------------- |
 | Kontak, nama badan usaha, domain | `src/data/site.ts`                             |
+| Pesan Founder & CEO, visi, misi  | `src/components/FounderMessage.tsx`            |
 | Layanan dan FAQ per layanan      | `src/data/services.ts`                         |
 | Sektor industri                  | `src/data/industries.ts`                       |
 | Konsep solusi                    | `src/data/solutions.ts`                        |
