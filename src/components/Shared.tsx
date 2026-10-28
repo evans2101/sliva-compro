@@ -275,6 +275,13 @@ export function Footer() {
               <span className="success-dot" />
               Terbuka untuk ide dan kolaborasi baru <Icon name="diagonal" size={14} />
             </a>
+            <a
+              href="https://www.instagram.com/slivatech.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram @slivatech.id <Icon name="diagonal" size={14} />
+            </a>
           </div>
           <div>
             <span className="footer-label">JELAJAHI</span>
